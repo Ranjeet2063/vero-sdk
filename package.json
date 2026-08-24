@@ -1,7 +1,7 @@
 {
   "name": "@vero-protocol/sdk",
   "version": "0.1.0",
-  "description": "Shared Stellar client library for the Vero Protocol — typed contract client, nonce management, RPC failover, and wallet adapters.",
+  "description": "Shared Stellar client library for the Vero Protocol \u2014 typed contract client, nonce management, RPC failover, and wallet adapters.",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
+    "build": "node init && tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "test": "jest",
